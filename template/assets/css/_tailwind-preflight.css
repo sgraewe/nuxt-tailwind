@@ -6,4 +6,4 @@
   * https://github.com/tailwindcss/tailwindcss/blob/master/css/preflight.css
   */
 
-@tailwind preflight;
+@import 'tailwindcss/preflight';

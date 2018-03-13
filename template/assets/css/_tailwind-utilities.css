@@ -3,4 +3,4 @@
   * config file.
   */
 
-@tailwind utilities;
+@import 'tailwindcss/utilities';

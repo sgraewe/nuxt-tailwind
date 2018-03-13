@@ -3,6 +3,7 @@
   --------------------------------------------------------- */
 
 @import '_tailwind-preflight';
+@import '_tailwind-components';
 @import '_tailwind-utilities';
 
 /** ------------------------------------------------------------
