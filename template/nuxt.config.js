@@ -2,6 +2,13 @@ const PurgecssPlugin = require('purgecss-webpack-plugin')
 const glob = require('glob-all')
 const path = require('path')
 
+class TailwindExtractor {
+  static extract(content) {
+    return content.match(/[A-Za-z0-9-_:\/]+/g) || []
+  }
+}
+
+
 module.exports = {
   /*
   ** Headers of the page
@@ -67,6 +74,10 @@ module.exports = {
               path.join(__dirname, './layouts/**/*.vue'),
               path.join(__dirname, './components/**/*.vue')
             ]),
+            extractors: [{
+              extractor: TailwindExtractor,
+              extensions: ["vue"]
+            }],
             whitelist: ['html', 'body']
           })
         )
