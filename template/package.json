@@ -17,6 +17,7 @@
     "tailwindcss": "^0.6.4"
   },
   "devDependencies": {
+    "autoprefixer": "^9.1.0",
     "babel-eslint": "^8.2.6",
     "cssnano": "^4.0.5",
     "eslint": "^5.2.0",
