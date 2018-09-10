@@ -1,6 +1,12 @@
-# Nuxt-Tailwind Starter
+<p align="center">
+    <img width="200" src="https://raw.githubusercontent.com/sgraewe/nuxt-tailwind/master/_assets/img/nuxt-tailwind.svg">
+</p>
 
-A [Nuxt.js](https://github.com/nuxt/nuxt.js) starter project template using [Tailwind CSS](https://github.com/tailwindcss/tailwindcss) without the distraction of a complicated development environment.
+<p align="center">
+    A <a href=https://github.com/nuxt/nuxt.js" target="_blank">Nuxt.js</a> starter project template using <a href=https://github.com/tailwindcss/tailwindcss" target="_blank">Tailwind CSS</a> without the distraction of a complicated development environment.
+</p>
+
+---
 
 ## Prerequisites
 
@@ -14,7 +20,7 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 $ vue init sgraewe/nuxt-tailwind my-project
 $ cd my-project
 # install dependencies
-$ npm install # Or yarn install
+$ npm install # yarn install
 ```
 
 > Make sure to use a version of vue-cli >= 2.1 (`vue -V`).
@@ -25,7 +31,7 @@ $ npm install # Or yarn install
 
 ```bash
 # serve with hot reloading at localhost:3000
-$ npm run dev # Or yarn dev
+$ npm run dev # yarn dev
 ```
 
 Go to [http://localhost:3000](http://localhost:3000)
@@ -34,13 +40,13 @@ Go to [http://localhost:3000](http://localhost:3000)
 
 ```bash
 # build for production and launch the server
-$ npm run build # Or yarn build
-$ npm start # Or yarn start
+$ npm run build # yarn build
+$ npm start # yarn start
 ```
 
 ### Generate
 
 ```bash
 # generate a static project
-$ npm run generate # Or yarn generate
+$ npm run generate # yarn generate
 ```
