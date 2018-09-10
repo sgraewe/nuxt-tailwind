@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="200" src="https://raw.githubusercontent.com/sgraewe/nuxt-tailwind/master/_assets/img/nuxt-tailwind.svg">
+    <img width="200" src="https://raw.githubusercontent.com/sgraewe/nuxt-tailwind/master/_assets/img/nuxt-tailwind.png">
 </p>
 
 <p align="center">
