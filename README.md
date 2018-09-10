@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-    A <a href=https://github.com/nuxt/nuxt.js" target="_blank">Nuxt.js</a> starter project template using <a href=https://github.com/tailwindcss/tailwindcss" target="_blank">Tailwind CSS</a> without the distraction of a complicated development environment.
+    A <a href="https://github.com/nuxt/nuxt.js" target="_blank">Nuxt.js</a> starter project template using <a href="https://github.com/tailwindcss/tailwindcss" target="_blank">Tailwind CSS</a> without the distraction of a complicated development environment.
 </p>
 
 ---
