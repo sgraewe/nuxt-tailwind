@@ -1,6 +1,6 @@
-const PurgecssPlugin = require('purgecss-webpack-plugin')
-const glob = require('glob-all')
-const path = require('path')
+import path from 'path'
+import PurgecssPlugin from 'purgecss-webpack-plugin'
+import glob from 'glob-all'
 
 class TailwindExtractor {
   static extract (content) {
@@ -75,7 +75,7 @@ module.exports = {
               extractor: TailwindExtractor,
               extensions: ['vue']
             }],
-            whitelist: ['html', 'body']
+            whitelist: ['html', 'body', 'nuxt-progress']
           })
         )
       }
