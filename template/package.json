@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "nuxt": "^2.2.0",
-    "tailwindcss": "^0.6.6"
+    "tailwindcss": "^0.7.0"
   },
   "devDependencies": {
     "autoprefixer": "^9.3.1",
