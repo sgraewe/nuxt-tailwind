@@ -1,13 +1,3 @@
-import path from 'path'
-import PurgecssPlugin from 'purgecss-webpack-plugin'
-import glob from 'glob-all'
-
-class TailwindExtractor {
-  static extract (content) {
-    return content.match(/[A-Za-z0-9-_:\/]+/g) || []
-  }
-}
-
 module.exports = {
   /*
   ** Headers of the page
@@ -28,6 +18,17 @@ module.exports = {
   ** Load global CSS
   */
   css: ['@/assets/css/main.css'],
+  /*
+  ** Load nuxt modules
+  */
+  modules: [
+    'nuxt-purgecss'
+  ],
+  /*
+  ** PurgeCSS
+  ** https://github.com/Developmint/nuxt-purgecss
+  */
+  purgeCSS: {},
   /*
   ** This option is given directly to the vue-router Router constructor
   */
@@ -58,26 +59,6 @@ module.exports = {
           loader: 'eslint-loader',
           exclude: /(node_modules)/
         })
-      }
-
-      /*
-      ** Cleanup CSS with PurgeCSS
-      */
-      if (!isDev) {
-        config.plugins.push(
-          new PurgecssPlugin({
-            paths: glob.sync([
-              path.join(__dirname, './pages/**/*.vue'),
-              path.join(__dirname, './layouts/**/*.vue'),
-              path.join(__dirname, './components/**/*.vue')
-            ]),
-            extractors: [{
-              extractor: TailwindExtractor,
-              extensions: ['vue']
-            }],
-            whitelist: ['html', 'body', 'nuxt-progress']
-          })
-        )
       }
     }
   }
