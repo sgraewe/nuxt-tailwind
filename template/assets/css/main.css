@@ -2,9 +2,7 @@
   ##  TAILWIND CSS
   --------------------------------------------------------- */
 
-@import '_tailwind-preflight';
-@import '_tailwind-components';
-@import '_tailwind-utilities';
+@import '_tailwind';
 
 /** ------------------------------------------------------------
   ##  CUSTOM CLASSES
