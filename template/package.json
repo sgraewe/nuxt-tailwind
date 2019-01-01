@@ -14,14 +14,14 @@
   },
   "dependencies": {
     "nuxt": "^2.3.4",
-    "nuxt-purgecss": "^0.0.2",
-    "tailwindcss": "^0.7.2"
+    "nuxt-purgecss": "^0.2.0",
+    "tailwindcss": "^0.7.3"
   },
   "devDependencies": {
-    "autoprefixer": "^9.4.2",
+    "autoprefixer": "^9.4.3",
     "babel-eslint": "^10.0.1",
-    "cssnano": "^4.1.7",
-    "eslint": "^5.10.0",
+    "cssnano": "^4.1.8",
+    "eslint": "^5.11.1",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^2.1.1",
     "eslint-plugin-vue": "^5.0.0",
