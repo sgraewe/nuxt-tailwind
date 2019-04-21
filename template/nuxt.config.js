@@ -19,7 +19,7 @@ module.exports = {
   /*
   ** Load global CSS
   */
-  css: ['@/assets/css/main.css'],
+  css: ['@/assets/css/tailwind.css'],
   /*
   ** Load nuxt modules
   */
@@ -77,7 +77,7 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
-    extend(config, { isDev, isClient }) {
+    extend (config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
           enforce: 'pre',
