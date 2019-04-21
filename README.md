@@ -14,7 +14,7 @@ Make sure to have `node 8.0+` and `npm 5.0+` installed
 
 ## TailwindCSS
 
-We have updated to version `1.0.0-beta`
+We have updated to version `1.0.0-beta`.
 Check out the new docs [TailwindCSS](https://next.tailwindcss.com/)
 
 ## Installation
