@@ -1,3 +1,5 @@
+const path = require('path')
+
 module.exports = {
   /*
   ** Headers of the page
@@ -44,6 +46,31 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    /*
+     ** PostCSS setup
+     */
+    postcss: {
+      // Add plugin names as key and arguments as value
+      // Disable a plugin by passing false as value
+      plugins: {
+        'postcss-import': {},
+        'postcss-url': {},
+        tailwindcss: path.resolve(__dirname, './tailwind.config.js'),
+        cssnano: {
+          preset: 'default',
+          discardComments: { removeAll: true },
+          zIndex: false
+        }
+      },
+      // Change the postcss-preset-env settings
+      preset: {
+        stage: 0,
+        autoprefixer: {
+          cascade: false,
+          grid: true
+        }
+      }
+    },
     /*
 +    ** Extract CSS
 +    */
