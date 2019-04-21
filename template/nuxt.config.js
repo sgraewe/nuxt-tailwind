@@ -53,7 +53,6 @@ module.exports = {
       // Add plugin names as key and arguments as value
       // Disable a plugin by passing false as value
       plugins: {
-        'postcss-import': {},
         'postcss-url': {},
         tailwindcss: path.resolve(__dirname, './tailwind.config.js'),
         cssnano: {
@@ -78,7 +77,7 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
-    extend (config, { isDev, isClient }) {
+    extend(config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
           enforce: 'pre',
