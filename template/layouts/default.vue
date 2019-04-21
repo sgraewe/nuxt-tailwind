@@ -6,7 +6,7 @@
 
 <style>
 html {
-  background-color: config('colors.white');
-  font-family: config('fonts.sans');
+  background-color: theme('colors.white');
+  font-family: theme('fontFamily.sans');
 }
 </style>
