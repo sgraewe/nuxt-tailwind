@@ -13,16 +13,16 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "^2.6.3",
+    "nuxt": "^2.7.1",
     "nuxt-purgecss": "^0.2.1",
-    "tailwindcss": "^1.0.1"
+    "tailwindcss": "^1.0.2"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^0.0.1",
     "autoprefixer": "^9.5.1",
     "babel-eslint": "^10.0.1",
     "cssnano": "^4.1.10",
-    "eslint-config-prettier": "^4.2.0",
+    "eslint-config-prettier": "^4.3.0",
     "eslint-config-standard": ">=12.0.0",
     "eslint-loader": "^2.1.2",
     "eslint-plugin-import": ">=2.16.0",
