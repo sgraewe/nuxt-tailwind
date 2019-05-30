@@ -1,6 +1,4 @@
-const path = require('path')
-
-module.exports = {
+export default {
   /*
   ** Headers of the page
   */
@@ -55,7 +53,7 @@ module.exports = {
       // Disable a plugin by passing false as value
       plugins: {
         'postcss-url': {},
-        tailwindcss: path.resolve(__dirname, './tailwind.config.js'),
+        tailwindcss: './tailwind.config.js',
         cssnano: {
           preset: 'default',
           discardComments: { removeAll: true },
@@ -78,7 +76,6 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
-    extend(config, ctx) {
-    }
+    extend(config, ctx) { }
   }
 }
