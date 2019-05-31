@@ -29,7 +29,9 @@ export default {
   ** PurgeCSS
   ** https://github.com/Developmint/nuxt-purgecss
   */
-  purgeCSS: {},
+  purgeCSS: {
+    mode: 'postcss'
+  },
   /*
   ** This option is given directly to the vue-router Router constructor
   */
@@ -69,10 +71,6 @@ export default {
         }
       }
     },
-    /*
-+    ** Extract CSS
-+    */
-    extractCSS: true,
     /*
     ** Run ESLint on save
     */
