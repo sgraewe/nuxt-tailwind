@@ -14,24 +14,15 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  /*
-  ** Load global CSS
-  */
-  css: ['@/assets/css/tailwind.css'],
+  devModules: [
+    '@nuxtjs/tailwindcss'
+  ],
   /*
   ** Load nuxt modules
   */
   modules: [
-    'nuxt-purgecss',
     '@nuxtjs/eslint-module'
   ],
-  /*
-  ** PurgeCSS
-  ** https://github.com/Developmint/nuxt-purgecss
-  */
-  purgeCSS: {
-    mode: 'postcss'
-  },
   /*
   ** This option is given directly to the vue-router Router constructor
   */
@@ -54,8 +45,6 @@ export default {
       // Add plugin names as key and arguments as value
       // Disable a plugin by passing false as value
       plugins: {
-        'postcss-url': {},
-        tailwindcss: './tailwind.config.js',
         cssnano: {
           preset: 'default',
           discardComments: { removeAll: true },
