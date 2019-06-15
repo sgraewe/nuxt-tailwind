@@ -14,15 +14,20 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  devModules: [
-    '@nuxtjs/tailwindcss'
-  ],
+
   /*
   ** Load nuxt modules
   */
-  modules: [
-    '@nuxtjs/eslint-module'
+  modules: [],
+
+  /*
+  ** Load nuxt de-modules
+  */
+  devModules: [
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/tailwindcss'
   ],
+
   /*
   ** This option is given directly to the vue-router Router constructor
   */
@@ -30,10 +35,12 @@ export default {
     base: '',
     linkActiveClass: 'is-active'
   },
+
   /*
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
+
   /*
   ** Build configuration
   */
@@ -60,6 +67,7 @@ export default {
         }
       }
     },
+
     /*
     ** Run ESLint on save
     */
