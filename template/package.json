@@ -16,23 +16,16 @@
     "nuxt": "2.8.1"
   },
   "devDependencies": {
+    "@nuxtjs/tailwindcss": "1.1.0",
     "@nuxtjs/eslint-config": "1.0.1",
     "@nuxtjs/eslint-module": "0.2.1",
-    "@nuxtjs/tailwindcss": "1.1.0",
     "babel-eslint": "10.0.2",
-    "cssnano": "4.1.10",
     "eslint": "6.0.1",
-    "eslint-config-prettier": "6.0.0",
-    "eslint-config-standard": "13.0.1",
-    "eslint-plugin-import": "2.18.2",
-    "eslint-plugin-jest": "22.12.0",
-    "eslint-plugin-node": "9.1.0",
     "eslint-plugin-nuxt": "0.4.3",
+    "eslint-config-prettier": "6.0.0",
     "eslint-plugin-prettier": "3.1.0",
-    "eslint-plugin-promise": "4.2.1",
-    "eslint-plugin-standard": "4.0.0",
-    "eslint-plugin-vue": "5.2.3",
+    "prettier": "1.18.2",
     "postcss-loader": "3.0.0",
-    "prettier": "1.18.2"
+    "cssnano": "4.1.10"
   }
 }
