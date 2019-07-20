@@ -16,7 +16,7 @@
     "nuxt": "2.8.1"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config": "0.0.1",
+    "@nuxtjs/eslint-config": "1.0.1",
     "@nuxtjs/eslint-module": "0.2.1",
     "@nuxtjs/tailwindcss": "1.1.0",
     "autoprefixer": "9.6.1",
