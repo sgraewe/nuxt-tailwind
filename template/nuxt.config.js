@@ -60,7 +60,6 @@ export default {
       },
       // Change the postcss-preset-env settings
       preset: {
-        stage: 0,
         autoprefixer: {
           cascade: false,
           grid: true
