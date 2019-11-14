@@ -8,7 +8,7 @@
   export default {
     head: {
       bodyAttrs: {
-        class: 'font-sans  bg-white'
+        class: 'font-sans bg-white'
       }
     }
   }
