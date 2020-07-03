@@ -13,7 +13,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "2.13.2"
+    "nuxt": "2.13.3"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "2.0.0",
