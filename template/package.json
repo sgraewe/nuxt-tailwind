@@ -16,7 +16,7 @@
     "nuxt": "2.13.3"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "2.0.0",
+    "@nuxtjs/tailwindcss": "2.1.0",
     "@nuxtjs/eslint-config": "2.0.2",
     "@nuxtjs/eslint-module": "2.0.0",
     "babel-eslint": "10.1.0",
